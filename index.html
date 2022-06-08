@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="main">
+    <video id="background-video" autoplay loop muted width="100%" height="100%">
+      <source src="/incubator_2022/nfactorial-homework-0608-dom/X2Download.com-Floating in Space-(1080p60).mp4"></source>
+    </video>
+    <div class="video-controller">
+      <button id="video" onclick="playVideo()"> 
+        <i class="fa fa-play-circle fa-5x"></i>
+      </button>
+    </div>
+    <div class="music-controller">
+      <button id="button-music" onclick="playMusic()">Music</button>
+      <audio src="/incubator_2022/nfactorial-homework-0608-dom/Coldplay - Don't panic.mp3" id="audio"></audio>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
